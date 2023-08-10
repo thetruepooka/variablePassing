@@ -1,0 +1,28 @@
+public class MethodCall1 {
+
+  public static void main(String[] args){
+    int x = 5;
+    int y = 2;
+    int z = 4;
+    
+    addNumbers(x, y);
+    int rod = addNumbers(x,y);
+    System.out.println("The result of x + y is: " + rod);
+  
+    int res = addNumbersz(y, z);
+     System.out.print("The result of y + z is: " + res);
+   
+  }
+  
+  public static int addNumbers(int a, int b)
+  {
+    int rod = a + b;
+    return rod;
+  }
+   public static int addNumbersz(int c, int d)
+  {
+    int res = c + d;
+    return res;
+  }
+  
+}
